@@ -11,8 +11,7 @@ class Multiplication
       Scanner in = new Scanner(System.in);
       x = in.nextInt();
       y = in.nextInt();
-      z = x + y;
-      System.out.println("Multiplication of entered integers = ");
-      System.out.print(z);
+      z = x * y;
+      System.out.println("Multiplication of entered integers = "+z);
    }
 }
