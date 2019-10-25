@@ -6,13 +6,13 @@ class Multiplication
 {
    public static void main(String args[])
    {
-      int x, y, z;
+      int a,b,c;
       System.out.println("Enter two integers ");
       Scanner in = new Scanner(System.in);
-      x = in.nextInt();
-      y = in.nextInt();
-      z = x + y;
+      a=in.nextInt();
+      b=in.nextInt();
+      c=a*b;
       System.out.println("Multiplication of entered integers = ");
-      System.out.print(z);
+      System.out.print(c);
    }
 }
